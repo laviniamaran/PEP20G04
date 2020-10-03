@@ -268,6 +268,7 @@ nothing_returned = my_list_object.append('123')
 print('Methods and functions that modify objects in place usually return:', nothing_returned)
 print('List object is now:', my_list_object)
 print('The id of the list object is still:', id(my_list_object))
+print()
 
 ####################################################### Object Slice ###################################################
 
@@ -291,6 +292,7 @@ print('All letters from index 2, including index 2:', my_string[2:])
 
 # Indices and step can have negative values and stat at the end of the object with last letter/object as -1
 print('Slice interval is still read from left to right:', my_string[-4:-1])
+print()
 
 ################################################## Object Packing/Unpacking ############################################
 tuple_to_unpack = (1, 2, 3, 4, 5)
