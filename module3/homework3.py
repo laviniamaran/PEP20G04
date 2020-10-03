@@ -49,7 +49,7 @@ print(factorial_of_squares(5))
 # - all letters in the first half will be transformed to upper case letters
 # - all characters that are not lower case letters in the second half will be replaced with "_"
 # - returned tuple contains the two processed strings
-# example: "1234567A Text de te5t" will become  ("1234567A", "_ext_de_te_t")
+# example: "1234567a Text de te5t" will become  ("1234567A", "_ext_de_te_t")
 
 def process_text(text: str):
     pass
