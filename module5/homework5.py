@@ -1,4 +1,4 @@
-""" Homework 4 - needs to be presented before exam day"""
+""" Homework 5 - needs to be presented before exam day"""
 
 # We want to create class for an object that behaves like a triangle, that has flexible sides and angles.
 # Because of approximations in python the triangle will get distorted after some of the changes so this is not a
