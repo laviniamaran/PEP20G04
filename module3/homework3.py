@@ -10,6 +10,11 @@
 def ordered_ints(list_of_objects: list):
     pass
     # <your code here>
+a=['1','2','3','4','5'] 
+b=[] 
+for i in a: 
+    b.append(int(i)) 
+print(b)
 
 
 print(ordered_ints([1, True, '123', False, 6, ()]))
@@ -37,7 +42,11 @@ print(sum_of_square(10))
 
 def factorial_of_squares(n: int):
     pass
-    # <your code here>
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
 
 
 print(factorial_of_squares(5))
