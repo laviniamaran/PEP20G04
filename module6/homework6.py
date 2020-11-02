@@ -23,7 +23,7 @@ Iterating the object will return the lot numbers produced that day
 
 2) Execution:
     a) Create object from class defined above using start serial 111 and number of cars produced 91. 10P
-    b) Print all left hand and reight hand serials for the object above: 10P
+    b) Print all left hand and right hand serials for the object above: 10P
     c) Iterate the object created above and write the lot numbers on new lines in a file. 20P
 
 3) Document:
