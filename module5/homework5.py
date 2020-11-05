@@ -20,7 +20,7 @@
 # example: angle AB is changed then C = (A**2 + B**2 - 2*A*B*cos(AB))**(1/2)
 # Because angles in a triangle must sum up to 180 degrees unmodified angles need to be recalculated after we have
 # recalculated the opposite side using the following example:
-# angle AB is changed then BC = arccos((B**2+ C**2 - A**2) / 2*B*C), CA = arccos((C**2+ A**2 - B**2) / 2*C*A),
+# angle AB is changed then BC = arccos((B**2+ C**2 - A**2) / (2*B*C)), CA = arccos((C**2+ A**2 - B**2) / (2*C*A)),
 
 
 # 30P
